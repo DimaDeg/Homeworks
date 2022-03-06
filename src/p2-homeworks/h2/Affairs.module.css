@@ -1,0 +1,30 @@
+.someClass {
+    display: flex;
+    background-color: #ccc;
+}
+
+.item {
+    margin: 10px;
+    width: 120px;
+    font-size: large;
+}
+
+.closeButton {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    margin: 10px;
+    color: white;
+    background-color:#7892c2;
+    border:1px solid #4e6096;
+}
+.button{
+    height: 30px;
+    width: 75px;
+    border-radius: 12px;
+    font-size: large;
+    color: white;
+    background-color: darkgreen;
+    border-color: white;
+    border-style: solid;
+}
