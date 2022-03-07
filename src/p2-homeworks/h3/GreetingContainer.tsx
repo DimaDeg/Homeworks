@@ -20,10 +20,10 @@ const GreetingContainer: React.FC<GreetingContainerPropsType> = ({users, addUser
         let checkName = e.currentTarget.value.trim()
         if (checkName) {
             setName(checkName)
-            setError('')
+            setError(null)
         } else {
             setName('')
-            setError(null)
+            setError('Incorrect Name')
         }
     }
 

@@ -2,11 +2,12 @@
     background-color: #ccc ;
 }
 .item {
-    background-color: rgba(0,255,0,25%);
+    background-color:#7892c2;
     margin: 10px;
     width: 200px;
     height: 30px;
-    border-radius: 10px;
+    border-radius: 17px;
+    border: 2px solid #4e6096;
 
 }
 
@@ -26,15 +27,12 @@
     width: 200px;
     height: 30px;
     border: 2px solid red;
-    border-radius: 10px;
+    border-radius: 17px;
 }
 .button{
     height: 35px;
     width: 75px;
     border-radius: 12px;
     font-size: large;
-    color: white;
-    background-color: darkgreen;
-    border-color: white;
-    border-style: solid;
+
 }

@@ -20,12 +20,12 @@ const Greeting: React.FC<GreetingPropsType> = (
 
     return (
         <div className={s.someClass}>
-{/*            <input
+            <input
                 value={name}
                 onKeyPress={addUserEnter}
                 onChange={setNameCallback}
-                className={inputClass}/>*/}
-            <SuperInputText value={name} onKeyPress={addUserEnter} onChange={setNameCallback}/>
+                className={inputClass}/>
+{/*            <SuperInputText value={name} onKeyPress={addUserEnter} className={inputClass} onChange={setNameCallback}/>*/}
             <SuperButton value={name} onClick={addUser} children={'add'}/>
 {/*            <button className={s.button} value={name} onClick={addUser}>add</button>*/}
             <span className={s.users}>{totalUsers}</span>
