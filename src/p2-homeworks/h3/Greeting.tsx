@@ -7,7 +7,7 @@ type GreetingPropsType = {
     name: string // need to fix any
     setNameCallback: (e: ChangeEvent<HTMLInputElement>) => void // need to fix any
     addUser: any // need to fix any
-    error: string | null // need to fix any
+    error: string // need to fix any
     totalUsers: number // need to fix any
     addUserEnter: (e: KeyboardEvent<HTMLInputElement>) => void
 }
@@ -20,16 +20,16 @@ const Greeting: React.FC<GreetingPropsType> = (
 
     return (
         <div className={s.someClass}>
-            <input
+{/*            <input
                 value={name}
                 onKeyPress={addUserEnter}
                 onChange={setNameCallback}
-                className={inputClass}/>
-{/*            <SuperInputText value={name} onKeyPress={addUserEnter} className={inputClass} onChange={setNameCallback}/>*/}
+                className={inputClass}/>*/}
+            <SuperInputText value={name} onKeyPress={addUserEnter} onChange={setNameCallback} className={inputClass} error={error}/>
             <SuperButton value={name} onClick={addUser} children={'add'}/>
 {/*            <button className={s.button} value={name} onClick={addUser}>add</button>*/}
             <span className={s.users}>{totalUsers}</span>
-            <div className={s.f}>{error}</div>
+{/*            <div className={s.f}>{error}</div>*/}
         </div>
     )
 }

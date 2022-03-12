@@ -13,7 +13,7 @@ export const PATH = {
     // add paths
 }
 
-function Router() {
+function Pages() {
     return (
         <div>
             {/*Switch выбирает первый подходящий роут*/}
@@ -34,4 +34,4 @@ function Router() {
     )
 }
 
-export default Router;
+export default Pages;

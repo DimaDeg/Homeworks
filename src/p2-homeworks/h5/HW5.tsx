@@ -1,7 +1,7 @@
 import React from 'react'
 import {HashRouter} from 'react-router-dom'
 import Header from './Header'
-import Router from "./Routes";
+import Pages from "./Routes";
 
 
 function HW5() {
@@ -12,7 +12,7 @@ function HW5() {
                 <Header/>
 
                 {/* eslint-disable-next-line react/jsx-no-undef */}
-                <Router/>
+                <Pages/>
 
             </HashRouter>
         </div>
