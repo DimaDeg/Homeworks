@@ -9,9 +9,9 @@ export const Junior = () => {
     return (
         <div>
             junior
-{/*            <HW7/>
+            <HW7/>
             <HW8/>
-            <HW9/>
+{/*            <HW9/>
             <HW10/>
             <HW11/>*/}
         </div>
