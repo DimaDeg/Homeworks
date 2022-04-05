@@ -6,7 +6,9 @@ import s from './Header.module.css'
 
 function Header() {
     return (
+
         <div className={s.header}>
+            <>react homeworks:</>
             <NavLink to={PATH.PRE_JUNIOR} className={t=>t.isActive ? s.active : s.item}>PreJunior</NavLink>
             <NavLink to={PATH.JUNIOR} className={t=>t.isActive ? s.active : s.item}>Junior</NavLink>
             <NavLink to={PATH.JUNIOR_PLUS} className={t=>t.isActive ? s.active : s.item}>JuniorPlus</NavLink>

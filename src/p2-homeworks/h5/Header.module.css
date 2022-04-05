@@ -3,12 +3,12 @@
     background: #ccc;
     height: 150px;
     transition: top ease 0.7s;
-    transform: translateY(-110px);
+    transform: translateY(-90px);
 }
 
 .header:hover {
-    transition: top ease 0.7s;
-    transform: translate(0px);
+    transition: bottom ease 0.7s;
+    transform: translate(0);
 }
 
 .item {
