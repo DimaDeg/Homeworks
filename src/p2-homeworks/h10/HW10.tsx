@@ -1,7 +1,7 @@
 import React from 'react'
 import SuperButton from '../h4/common/c2-SuperButton/SuperButton'
 import {useDispatch, useSelector} from "react-redux";
-import {loadingAC} from "./bll/loadingReducer";
+import { loadingAC} from "./bll/loadingReducer";
 import {AppStoreType} from "./bll/store";
 import s from '../h7/HW7.module.css'
 import st from './HW10.module.css'
@@ -31,7 +31,7 @@ function HW10() {
                     <div className={st.container}>
                         <div className={st.loader}>
                             <img
-                                src={'https://орфографика.рф/800/600/https/recxon.pro/upload/medialibrary/818/8187a44741ec1bc337686b53ce22cc10.gif'}/>
+                                src={'https://орфографика.рф/800/600/https/recxon.pro/upload/medialibrary/818/8187a44741ec1bc337686b53ce22cc10.gif'} alt={''}/>
 
                         </div>
                     </div>

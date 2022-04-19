@@ -1,4 +1,4 @@
-type initStateType = {
+export type initStateType = {
     isLoading: boolean
 }
 const initState = {
