@@ -21,7 +21,7 @@ input[type=range] {
     width: 40%; /* Specific width is required for Firefox. */
     /*background: transparent; !* Otherwise white in Chrome *!*/
     background: #eee;
-    border: 1px solid blue;
+    border: 1px solid #7892c2;
     outline: none;
     border-radius: 15px;
     margin: 0;
@@ -40,8 +40,7 @@ input[type=range]::-webkit-slider-thumb {
     width: 18px;
     border-radius: 50%;
     cursor: pointer;
-    background: blue;
-    /*box-shadow: -1000px 0 0 1000px red;*/
+    background: #7892c2;
     z-index: 5;
     position: relative;
     top: -1.5px;
