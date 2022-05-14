@@ -1,5 +1,4 @@
 import axios from "axios";
-import {log} from "util";
 
 
 const baseURL = 'https://neko-cafe-back.herokuapp.com/auth/test/'
