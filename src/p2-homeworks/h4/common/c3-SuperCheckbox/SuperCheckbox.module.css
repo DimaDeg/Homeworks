@@ -8,6 +8,7 @@
 }
 
 .checkbox {
+    appearance: none;
     font: inherit;
     color: #7892c2;
     width: 1.15em;
@@ -28,7 +29,7 @@
     transform-origin: bottom left;
     transition: 120ms transform ease-in-out;
     /*box-shadow: inset 1em 1em var(--form-control-color);*/
-    background-color: white;
+    background-color: #7892c2;
 }
 
 .checkbox:checked::before {
